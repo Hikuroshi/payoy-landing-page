@@ -10,8 +10,8 @@
   </head>
   <body>
     <!-- Hero Section -->
-    <section class="vh-100 d-flex flex-column">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <section class="vh-100 d-flex flex-column position-relative">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f97316">
         <div class="container">
           <a class="navbar-brand" href="#">Payoy</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,9 +32,18 @@
         <div class="text-center px-0 px-md-5">
           <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptas.</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptas.</p>
-          <button type="button" class="btn btn-primary">Unduh Sekarang</button>
+          <div class="d-flex flex-row gap-3 align-items-center justify-content-center mt-4">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/app-store-badge.svg" alt="Download on the App Store" style="height: 50px" class="img-fluid" />
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/google-play-badge.svg" alt="Get it on Google Play" style="height: 50px" class="img-fluid" />
+            </a>
+          </div>
         </div>
       </div>
+      <img src="assets/img/payoy-example.png" alt="Payoy Example" class="img-fluid position-absolute start-50 translate-middle-x border rounded" style="height: 500px; bottom: -400px" />
     </section>
     <!-- END Hero Section -->
 
