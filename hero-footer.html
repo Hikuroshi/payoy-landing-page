@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payoy</title>
 
+    <link rel="icon" href="assets/img/payoy-logo.png" type="image/png" />
+
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!-- Hero Section -->
     <section class="vh-100 d-flex flex-column position-relative">
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f97316">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: orange">
         <div class="container">
           <a class="navbar-brand" href="#">Payoy</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,9 +21,15 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Testimoni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Kontak Kami</a>
               </li>
             </ul>
           </div>
@@ -43,9 +51,56 @@
           </div>
         </div>
       </div>
-      <img src="assets/img/payoy-example.png" alt="Payoy Example" class="img-fluid position-absolute start-50 translate-middle-x border rounded" style="height: 500px; bottom: -400px" />
+      <img src="assets/img/payoy-example.png" alt="Payoy Example" class="img-fluid position-absolute start-50 translate-middle-x border rounded shadow" style="height: 500px; bottom: -400px" />
     </section>
     <!-- END Hero Section -->
+
+    <!-- Footer Section -->
+    <footer class="py-4" style="background-color: orange; margin-top: 500px">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Kiri -->
+          <div class="col-lg-6">
+            <div class="d-flex align-items-center mb-3">
+              <img src="assets/img/payoy-logo.png" alt="Payoy Logo" class="me-2 img-fluid object-fit-contain" style="width: 60px" />
+              <h4 class="mb-0 text-light">Payoy</h4>
+            </div>
+            <p class="mb-0 text-light" style="max-width: 400px">Payoy adalah platform modern yang membantu pengguna mengelola kebutuhan digital dengan lebih mudah, cepat, dan nyaman.</p>
+          </div>
+
+          <!-- Kanan -->
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-6">
+                <h5 class="mb-3 text-light">Resources</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-decoration-none text-light">Tentang Kami</a></li>
+                  <li><a href="#" class="text-decoration-none text-light">Layanan</a></li>
+                  <li><a href="#" class="text-decoration-none text-light">Testimoni</a></li>
+                  <li><a href="#" class="text-decoration-none text-light">Kontak</a></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <h5 class="mb-3 text-light">Sosial Media</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-decoration-none text-light">Instagram</a></li>
+                  <li><a href="#" class="text-decoration-none text-light">Facebook</a></li>
+                  <li><a href="#" class="text-decoration-none text-light">TikTok</a></li>
+                  <li><a href="#" class="text-decoration-none text-light">LinkedIn</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-light my-4" />
+
+        <div class="text-center">
+          <p class="mb-0 text-light">&copy; 2023 Payoy. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
 
     <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
