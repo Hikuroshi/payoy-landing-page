@@ -10,84 +10,195 @@
   </head>
   <body>
     <!-- Hero Section -->
-    <section></section>
+    <section class="vh-100 d-flex flex-column position-relative" id="hero">
+      <nav class="navbar navbar-expand-lg" style="background-color: orange">
+        <div class="container">
+          <a class="navbar-brand" href="#">Payoy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#hero">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#features">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#testimonials">Testimoni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#footer">Kontak Kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container flex-grow-1 d-flex justify-content-center align-items-center">
+        <div class="text-center px-0 px-md-5">
+          <h1>Solusi digital untuk bisnis kuliner yang ingin tumbuh lebih cepat</h1>
+          <p>Payoy membantu restoran, kafe, dan UMKM mengelola pesanan, meja, produk, serta laporan keuangan dalam satu aplikasi yang simpel, modern, dan mudah digunakan.</p>
+          <div class="d-flex flex-row gap-3 align-items-center justify-content-center mt-4">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/app-store-badge.svg" alt="Download on the App Store" style="height: 50px" class="img-fluid" />
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/google-play-badge.svg" alt="Get it on Google Play" style="height: 50px" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src="assets/img/payoy-example.png" alt="Payoy Example" class="img-fluid position-absolute start-50 translate-middle-x border rounded shadow" style="height: 500px; bottom: -400px" />
+    </section>
     <!-- END Hero Section -->
 
     <!-- Feature Section -->
-    <section></section>
+    <section class="py-5" id="features" style="margin-top: 500px">
+      <div class="container px-5 my-5">
+        <div class="row gx-5">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h2 class="fw-bolder mb-0">
+              Mulai jualan <br />
+              tanpa ribet.
+            </h2>
+          </div>
+          <div class="col-lg-8">
+            <div class="row gx-5 row-cols-1 row-cols-md-2">
+              <div class="col mb-5 h-100">
+                <div class="feature text-white rounded-3 mb-3 bg-green">
+                  <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 3.75 9.375v-4.5ZM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5ZM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 13.5 9.375v-4.5Z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 6.75h.75v.75h-.75v-.75ZM6.75 16.5h.75v.75h-.75v-.75ZM16.5 6.75h.75v.75h-.75v-.75ZM13.5 13.5h.75v.75h-.75v-.75ZM13.5 19.5h.75v.75h-.75v-.75ZM19.5 13.5h.75v.75h-.75v-.75ZM19.5 19.5h.75v.75h-.75v-.75ZM16.5 16.5h.75v.75h-.75v-.75Z"></path>
+                  </svg>
+                </div>
+                <h2 class="h5">QR Code Table Booking</h2>
+                <p class="mb-0">Kurangi antri waiter, tingkatkan kecepatan layanan, dan track occupancy meja real-time dengan QR unik di setiap meja.</p>
+              </div>
+              <div class="col mb-5 h-100">
+                <div class="feature text-white rounded-3 mb-3 bg-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
+                  </svg>
+                </div>
+                <h2 class="h5">Pengaturan Keuangan</h2>
+                <p class="mb-0">Pantau cashflow dan laporan laba rugi harian. kemudahan mengelola pengeluaran outlet tanpa ribet mengunakan spreadsheet.</p>
+              </div>
+              <div class="col mb-5 mb-md-0 h-100">
+                <div class="feature text-white rounded-3 mb-3 bg-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75" />
+                  </svg>
+                </div>
+                <h2 class="h5">Kelola Produk</h2>
+                <p class="mb-0">Hindari kehabisan barang laris dengan fitur update stok, track kadaluarsa, dan reorder otomatis.</p>
+              </div>
+              <div class="col h-100">
+                <div class="feature text-white rounded-3 mb-3 bg-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="{1.5}" stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 9V4.5M9 9H4.5M9 9 3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5 5.25 5.25" />
+                  </svg>
+                </div>
+                <h2 class="h5">Satu Kendali untuk Banyak Outlet</h2>
+                <p class="mb-0">Skalakan bisnis tanpa chaos dengan Dashboard pusat untuk monitor semua cabang, bisa pisah data penjualan/stok per lokasi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- END Feature Section -->
 
     <!-- Testimonial Section -->
-    <section class="testimoni-section py-5">
+    <section class="py-5" id="testimonials">
       <div class="container">
         <div class="text-center mb-5 d-flex flex-column align-items-center">
-          <div class="d-inline-block px-3 py-1 rounded-pill mb-3" style="border: 1px solid #fed7aa; background-color: rgba(255, 237, 213, 0.5)">
-            <span style="font-size: 14px; color: #ea580c; font-weight: 500; letter-spacing: 0.05em">Testimoni</span>
-          </div>
-          <h2 class="display-5 fw-bold text-dark">
-            Apa Kata Pengguna
-            <span style="color: #f97316">Payoy!</span>
-          </h2>
+          <h2 class="display-5 fw-bold text-dark">Apa Kata Pengguna <span style="color: orange">Payoy!</span></h2>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
-            <div class="card h-100 border-0 shadow-sm p-4 testimonial-card" style="border-radius: 16px">
-              <svg class="mb-3" width="36" height="36" fill="#bfdbfe" viewBox="0 0 24 24" style="opacity: 0.5">
-                <path d="M3 21c0 .552.449 1 1.001 1h5.998A1.001 1.001 0 0 0 11 21v-8c0-.552-.449-1-1.001-1H4.001A1.001 1.001 0 0 0 3 13v8zm10 0c0 .552.449 1 1.001 1h5.998A1.001 1.001 0 0 0 21 21v-8c0-.552-.449-1-1.001-1h-5.998A1.001 1.001 0 0 0 13 13v8zM3 11c0 3.3 2.7 6 6 6V9c-3.3 0-6 2.7-6 6zm10 0c0 3.3 2.7 6 6 6V9c-3.3 0-6 2.7-6 6z" />
-              </svg>
+            <div class="card h-100 border-0 shadow-sm p-4 rounded">
+              <div class="mb-3">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_63_30)">
+                    <path d="M9 3C4.05 3 0 7.05 0 12V21H9V12H3C3 8.67 5.67 6 9 6V3ZM24 3C19.05 3 15 7.05 15 12V21H24V12H18C18 8.67 20.67 6 24 6V3Z" fill="#fed7aa" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_63_30">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
 
               <div class="card-body p-0">
-                <p class="card-text text-secondary mb-4" style="font-size: 16px; line-height: 1.6">
-                  Aplikasi
-                  <span style="color: #f97316; font-weight: 500">Pay oy!</span> bagus mudah digunakan, simpel, dan menarik. Semoga kedepannya ada fitur dashboard yang menampilkan grafik laporan penjualan.
-                </p>
+                <p class="text-muted small mb-4">Saya owner umkm sangat terbantu dengan adanya aplikasi <span style="color: orange" class="fw-medium">Payoy!</span> ini, fitur QR meja sangat membantu saya dalam menyelesaikan masalah antrian.</p>
 
                 <div class="d-flex align-items-center">
-                  <img src="https://images.unsplash.com/photo-1624797432677-6f803a98acb3?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-circle me-3" width="56" height="56" alt="Fatima Khoury" style="border: 2px solid #f3f4f6; object-fit: cover" />
+                  <img src="assets/img/2026-04-17-23-03-01.png" class="object-fit-cover rounded-circle me-3" alt="Foto Profil" style="width: 50px; height: 50px" />
                   <div class="overflow-hidden">
-                    <h6 class="mb-0 fw-bold text-dark">Fatima Khoury</h6>
-                    <small class="text-muted d-block text-truncate">@itory_cantana_90</small>
+                    <h6 class="mb-0 fw-bold text-dark">Nathaniel Galih</h6>
+                    <small class="text-muted mb-0 text-truncate" style="font-size: 14px">Owner toko roti & café</small>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 border-0 shadow-sm p-4 testimonial-card" style="border-radius: 16px">
-              <svg class="mb-3" width="36" height="36" fill="#bfdbfe" viewBox="0 0 24 24" style="opacity: 0.5">
-                <path d="M3 21c0 .552.449 1 1.001 1h5.998A1.001 1.001 0 0 0 11 21v-8c0-.552-.449-1-1.001-1H4.001A1.001 1.001 0 0 0 3 13v8zm10 0c0 .552.449 1 1.001 1h5.998A1.001 1.001 0 0 0 21 21v-8c0-.552-.449-1-1.001-1h-5.998A1.001 1.001 0 0 0 13 13v8zM3 11c0 3.3 2.7 6 6 6V9c-3.3 0-6 2.7-6 6zm10 0c0 3.3 2.7 6 6 6V9c-3.3 0-6 2.7-6 6z" />
-              </svg>
+            <div class="card h-100 border-0 shadow-sm p-4 rounded">
+              <div class="mb-3">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_63_30)">
+                    <path d="M9 3C4.05 3 0 7.05 0 12V21H9V12H3C3 8.67 5.67 6 9 6V3ZM24 3C19.05 3 15 7.05 15 12V21H24V12H18C18 8.67 20.67 6 24 6V3Z" fill="#fed7aa" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_63_30">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
               <div class="card-body p-0">
-                <p class="card-text text-secondary mb-4" style="font-size: 16px; line-height: 1.6">
-                  Saya owner UMKM sangat terbantu dengan adanya aplikasi
-                  <span style="color: #f97316; font-weight: 500">Pay oy!</span> ini, fitur QR meja sangat membantu saya dalam menyelesaikan maslalah antrian.
-                </p>
+                <p class="text-muted small mb-4">Ngga salah saya pilih <span style="color: orange" class="fw-medium">Payoy!</span> secara fitur banyak sekali yang diberikan, tampilan user friendly banget untuk pegawai baru langsung bisa pakai tanpa ribet</p>
+
                 <div class="d-flex align-items-center">
-                  <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-circle me-3" width="56" height="56" alt="Hassan Ali" style="border: 2px solid #f3f4f6; object-fit: cover" />
+                  <img src="assets/img/2026-04-17-23-01-41.png" class="object-fit-cover rounded-circle me-3" alt="Foto Profil" style="width: 50px; height: 50px" />
                   <div class="overflow-hidden">
-                    <h6 class="mb-0 fw-bold text-dark">Hassan Ali</h6>
-                    <small class="text-muted d-block text-truncate">@lubdudent_unicorn_29</small>
+                    <h6 class="mb-0 fw-bold text-dark">Viora</h6>
+                    <small class="text-muted mb-0 text-truncate" style="font-size: 14px">Owner Ayam Bakar</small>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 border-0 shadow-sm p-4 testimonial-card" style="border-radius: 16px">
-              <svg class="mb-3" width="36" height="36" fill="#bfdbfe" viewBox="0 0 24 24" style="opacity: 0.5">
-                <path d="M3 21c0 .552.449 1 1.001 1h5.998A1.001 1.001 0 0 0 11 21v-8c0-.552-.449-1-1.001-1H4.001A1.001 1.001 0 0 0 3 13v8zm10 0c0 .552.449 1 1.001 1h5.998A1.001 1.001 0 0 0 21 21v-8c0-.552-.449-1-1.001-1h-5.998A1.001 1.001 0 0 0 13 13v8zM3 11c0 3.3 2.7 6 6 6V9c-3.3 0-6 2.7-6 6zm10 0c0 3.3 2.7 6 6 6V9c-3.3 0-6 2.7-6 6z" />
-              </svg>
+            <div class="card h-100 border-0 shadow-sm p-4 rounded">
+              <div class="mb-3">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_63_30)">
+                    <path d="M9 3C4.05 3 0 7.05 0 12V21H9V12H3C3 8.67 5.67 6 9 6V3ZM24 3C19.05 3 15 7.05 15 12V21H24V12H18C18 8.67 20.67 6 24 6V3Z" fill="#fed7aa" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_63_30">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
               <div class="card-body p-0">
-                <p class="card-text text-secondary mb-4" style="font-size: 16px; line-height: 1.6">
-                  Ngga salah saya pilih
-                  <span style="color: #f97316; font-weight: 500">Pay oy!</span> secara fitur banyak sekali yang diberikan, tampilan user friendly banget untuk pegawai baru langsung bisa pakai tanpa ribet.
-                </p>
+                <p class="text-muted small mb-4">Aplikasi <span style="color: orange" class="fw-medium">Payoy!</span> bagus mudah digunakan, simpel, dan menarik. Semoga kedepannya ada fitur dashboard yang menampilkan grafik laporan penjualan.</p>
+
                 <div class="d-flex align-items-center">
-                  <img src="https://images.unsplash.com/photo-1560073743-0a45c01b68c4?w=100" class="rounded-circle me-3" width="56" height="56" alt="Hassan Ali" style="border: 2px solid #f3f4f6; object-fit: cover" />
+                  <img src="assets/img/2026-04-17-23-03-40.png" class="object-fit-cover rounded-circle me-3" alt="Foto Profil" style="width: 50px; height: 50px" />
                   <div class="overflow-hidden">
-                    <h6 class="mb-0 fw-bold text-dark">Hassan Ali</h6>
-                    <small class="text-muted d-block text-truncate">@lubdudent_unicorn_29</small>
+                    <h6 class="mb-0 fw-bold text-dark">Icha</h6>
+                    <small class="text-muted mb-0 text-truncate" style="font-size: 14px">Owner Café</small>
                   </div>
                 </div>
               </div>
@@ -98,8 +209,63 @@
     </section>
     <!-- END Testimonial Section -->
 
+    <section class="text-center my-5 py-5">
+      <h1 class="fw-bold">Siap untuk mengelola bisnis kuliner?</h1>
+      <p>Payoy tersedia di semua platform, website, android, dan ios.</p>
+      <div class="d-flex flex-row gap-3 align-items-center justify-content-center mt-4">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="assets/img/app-store-badge.svg" alt="Download on the App Store" style="height: 50px" class="img-fluid" />
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="assets/img/google-play-badge.svg" alt="Get it on Google Play" style="height: 50px" class="img-fluid" />
+        </a>
+      </div>
+    </section>
+
     <!-- Footer Section -->
-    <section></section>
+    <footer class="py-4 mt-5" style="background-color: orange" id="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="d-flex align-items-center mb-3">
+              <img src="assets/img/payoy-logo.png" alt="Payoy Logo" class="me-2 img-fluid object-fit-contain" style="width: 60px" />
+              <h4 class="mb-0">Payoy</h4>
+            </div>
+            <p class="mb-0" style="max-width: 400px">Payoy adalah platform modern yang membantu pengguna mengelola kebutuhan digital dengan lebih mudah, cepat, dan nyaman.</p>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-6">
+                <h5 class="mb-3">Menu</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#hero" class="text-decoration-none text-dark">Beranda</a></li>
+                  <li><a href="#features" class="text-decoration-none text-dark">Layanan</a></li>
+                  <li><a href="#testimonials" class="text-decoration-none text-dark">Testimoni</a></li>
+                  <li><a href="#footer" class="text-decoration-none text-dark">Kontak</a></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <h5 class="mb-3">Sosial Media</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-decoration-none text-dark">Instagram</a></li>
+                  <li><a href="#" class="text-decoration-none text-dark">Facebook</a></li>
+                  <li><a href="#" class="text-decoration-none text-dark">TikTok</a></li>
+                  <li><a href="#" class="text-decoration-none text-dark">LinkedIn</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border my-4" />
+
+        <div class="text-center">
+          <p class="mb-0">&copy; 2026 Payoy. Semua hak dilindungi.</p>
+        </div>
+      </div>
+    </footer>
     <!-- END Footer Section -->
 
     <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
